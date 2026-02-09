@@ -1,0 +1,835 @@
+[
+    {
+        "id":  1,
+        "nom":  "Can Formiga",
+        "slug":  "can-formiga",
+        "imatges":  [
+                        "img/1/details_1.webp",
+                        "img/1/card_1.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=41.6284775,2.6902291\u0026output=embed",
+        "descripcio_llarga":  "Restaurant de cuina catalana tradicional especialitzat en carns a la brasa i plats casolans.",
+        "horari":  "Dimarts a diumenge · 13:00 – 16:00 / 20:00 – 23:00",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "18€ - 30€"
+                 },
+        "contacte":  {
+                         "web":  "https://canformiga.com",
+                         "telefon":  "+34 93 767 17 35",
+                         "email":  "info@canformiga.com"
+                     },
+        "tipus":  [
+                      "Braseria",
+                      "Tradicional"
+                  ],
+        "serveis":  [
+                        "Terrassa",
+                        "Reserves"
+                    ]
+    },
+    {
+        "id":  2,
+        "nom":  "Pura Brasa",
+        "slug":  "pura-brasa",
+        "imatges":  [
+                        "img/2/details_2.webp",
+                        "img/2/card_2.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=41.6314953,2.6962385\u0026output=embed",
+        "descripcio_llarga":  "Especialitats a la brasa amb ambient familiar i cuina senzilla.",
+        "horari":  "Dilluns a diumenge · 13:00 – 16:00 / 20:00 – 23:00",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "18€ - 28€"
+                 },
+        "contacte":  {
+                         "web":  "https://www.purabrasa.com/ca/pineda-de-mar/",
+                         "telefon":  "+34 93 767 15 68",
+                         "email":  "pineda@purabrasa.com"
+                     },
+        "tipus":  [
+                      "Braseria",
+                      "Tradicional"
+                  ],
+        "serveis":  [
+                        "Menú diari"
+                    ]
+    },
+    {
+        "id":  3,
+        "nom":  "Restaurant Marisqueria Pepet",
+        "slug":  "restaurant-marisqueria-pepet",
+        "imatges":  [
+                        "img/3/details_3.webp",
+                        "img/3/card_3.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Restaurant%20Marisqueria%20Pepet%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Marisqueria especialitzada en peix fresc i marisc de qualitat.",
+        "preu":  {
+                     "nivell":  3,
+                     "rang":  "30€ - 45€"
+                 },
+        "contacte":  {
+                         "web":  "https://www.facebook.com/pepetpineda",
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Marisc / Peix"
+                  ],
+        "serveis":  [
+                        "Reserves"
+                    ],
+        "horari":  "Dimecres a diumenge · 13:00 – 16:00"
+    },
+    {
+        "id":  4,
+        "nom":  "Can Pepes",
+        "slug":  "can-pepes",
+        "imatges":  [
+                        "img/4/details_4.webp",
+                        "img/4/card_4.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Can%20Pepes%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Cuina catalana tradicional amb productes locals.",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "15€ - 25€"
+                 },
+        "contacte":  {
+                         "web":  "https://restaurantecanpepes.com",
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Tradicional"
+                  ],
+        "serveis":  [
+                        "Menú diari"
+                    ],
+        "horari":  "Dimarts a diumenge · 13:00 – 16:00"
+    },
+    {
+        "id":  5,
+        "nom":  "Singular Gastrobar",
+        "slug":  "singular-gastrobar",
+        "imatges":  [
+                        "img/5/details_5.webp",
+                        "img/5/card_5.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Singular%20Gastrobar%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Gastrobar modern amb plats creatius i tapes.",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "18€ - 30€"
+                 },
+        "contacte":  {
+                         "web":  "https://singularpineda.wixsite.com/singular",
+                         "telefon":  "+34 640 30 92 45",
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Gastrobar",
+                      "Tapas"
+                  ],
+        "serveis":  [
+                        "Terrassa"
+                    ],
+        "horari":  "Dimecres a diumenge · 19:00 – 23:30"
+    },
+    {
+        "id":  6,
+        "nom":  "El Raconet Restaurant",
+        "slug":  "el-raconet-restaurant",
+        "imatges":  [
+                        "img/6/details_6.webp",
+                        "img/6/card_6.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=El%20Raconet%20Restaurant%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Restaurant mediterrani amb ambient acollidor i plats casolans.",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "16€ - 26€"
+                 },
+        "contacte":  {
+                         "web":  null,
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Mediterrani",
+                      "Tradicional"
+                  ],
+        "serveis":  [
+                        "Menú diari"
+                    ],
+        "horari":  "Dimarts a diumenge · 13:00 – 16:00"
+    },
+    {
+        "id":  7,
+        "nom":  "Mala Pekora",
+        "slug":  "mala-pekora",
+        "imatges":  [
+                        "img/7/details_7.webp",
+                        "img/7/card_7.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Mala%20Pekora%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Pizzeria trattoria al passeig marítim amb ambient informal.",
+        "preu":  {
+                     "nivell":  1,
+                     "rang":  "10€ - 18€"
+                 },
+        "contacte":  {
+                         "web":  null,
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Pizzeria",
+                      "Tapas"
+                  ],
+        "serveis":  [
+                        "Terrassa",
+                        "Emportar"
+                    ],
+        "horari":  "Dilluns a diumenge · 19:00 – 23:30"
+    },
+    {
+        "id":  8,
+        "nom":  "Frankfurt La Torre 2",
+        "slug":  "frankfurt-la-torre-2",
+        "imatges":  [
+                        "img/8/details_8.webp",
+                        "img/8/card_8.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Frankfurt%20La%20Torre%202%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Frankfurts, hamburgueses i menjar ràpid.",
+        "preu":  {
+                     "nivell":  1,
+                     "rang":  "8€ - 15€"
+                 },
+        "contacte":  {
+                         "web":  "https://www.latorre2.com",
+                         "telefon":  "+34 687 985 175",
+                         "email":  "latorre2frankfurt@gmail.com"
+                     },
+        "tipus":  [
+                      "Frankfurt",
+                      "Fast Food"
+                  ],
+        "serveis":  [
+                        "Emportar"
+                    ],
+        "horari":  "Cada dia · 18:00 – 01:00"
+    },
+    {
+        "id":  9,
+        "nom":  "Bar-Restaurant Ibèrik\u0027s",
+        "slug":  "bar-restaurant-iberiks",
+        "imatges":  [
+                        "img/9/details_9.webp",
+                        "img/9/card_9.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Bar-Restaurant%20Ib%C3%83%C2%A8rik\u0027s%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Restaurant de tapes i plats tradicionals espanyols amb ambient informal.",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "15€ - 25€"
+                 },
+        "contacte":  {
+                         "web":  null,
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Espanyol",
+                      "Tapas"
+                  ],
+        "serveis":  [
+                        "Terrassa"
+                    ],
+        "horari":  "Dimarts a diumenge · 12:00 – 16:00 / 19:00 – 23:00"
+    },
+    {
+        "id":  10,
+        "nom":  "El Peix Grillat",
+        "slug":  "el-peix-grillat",
+        "imatges":  [
+                        "img/10/details_10.webp",
+                        "img/10/card_10.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=41.6185338,2.6795179\u0026output=embed",
+        "descripcio_llarga":  "Restaurant especialitzat en peix fresc a la graella.",
+        "horari":  "Dimecres a diumenge · 13:00 – 16:00",
+        "preu":  {
+                     "nivell":  3,
+                     "rang":  "30€ - 45€"
+                 },
+        "contacte":  {
+                         "web":  "https://www.elpeixgrillat.com",
+                         "telefon":  "+34 638 84 64 90",
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Marisc / Peix"
+                  ],
+        "serveis":  [
+                        "Reserves"
+                    ]
+    },
+    {
+        "id":  11,
+        "nom":  "Los Jamones",
+        "slug":  "los-jamones",
+        "imatges":  [
+                        "img/11/details_11.webp",
+                        "img/11/card_11.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Los%20Jamones%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Especialistes en pernil, embotits i tapes tradicionals.",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "18€ - 28€"
+                 },
+        "contacte":  {
+                         "web":  "https://www.instagram.com/restaurante_jamones/",
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Espanyol",
+                      "Tapas"
+                  ],
+        "serveis":  [
+                        "Terrassa"
+                    ],
+        "horari":  "Dilluns a diumenge · 12:00 – 23:00"
+    },
+    {
+        "id":  12,
+        "nom":  "El Arbolito",
+        "slug":  "el-arbolito",
+        "imatges":  [
+                        "img/12/details_12.webp",
+                        "img/12/card_12.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=41.6210665,2.6884043\u0026output=embed",
+        "descripcio_llarga":  "Cuina mediterrània amb tapes variades i ambient agradable.",
+        "horari":  "Dimarts a diumenge · 12:30 – 23:00",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "16€ - 26€"
+                 },
+        "contacte":  {
+                         "web":  null,
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Mediterrani",
+                      "Tapas"
+                  ],
+        "serveis":  [
+                        "Terrassa"
+                    ]
+    },
+    {
+        "id":  13,
+        "nom":  "Restaurant Platets 63",
+        "slug":  "restaurant-platets-63",
+        "imatges":  [
+                        "img/13/details_13.webp",
+                        "img/13/card_13.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Restaurant%20Platets%2063%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Plats casolans elaborats amb productes frescos.",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "15€ - 25€"
+                 },
+        "contacte":  {
+                         "web":  "https://es.restaurantguru.com/Restaurant-Platets-63-Pineda-de-Mar",
+                         "telefon":  "+34 938 20 08 68",
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Mediterrani",
+                      "Tradicional"
+                  ],
+        "serveis":  [
+                        "Menú diari"
+                    ],
+        "horari":  "Dimecres a diumenge · 13:00 – 16:00"
+    },
+    {
+        "id":  14,
+        "nom":  "Champanillo",
+        "slug":  "champanillo",
+        "imatges":  [
+                        "img/14/details_14.webp",
+                        "img/14/card_14.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Champanillo%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Entrepans grans, hamburgueses, tapes i ambient animat.",
+        "preu":  {
+                     "nivell":  3,
+                     "rang":  "25€ - 40€"
+                 },
+        "contacte":  {
+                         "web":  "https://www.champanillo.com",
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Fast Food",
+                      "Frankfurt"
+                  ],
+        "serveis":  [
+                        "Terrassa"
+                    ],
+        "horari":  "Cada dia · 12:00 – 01:00"
+    },
+    {
+        "id":  15,
+        "nom":  "Anchor Point Beach Bar \u0026 Lounge",
+        "slug":  "anchor-point-beach-bar-lounge",
+        "imatges":  [
+                        "img/15/details_15.webp",
+                        "img/15/card_15.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Anchor%20Point%20Beach%20Bar%20%26%20Lounge%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Xiringuito modern amb hamburgueses, còctels i vistes al mar.",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "18€ - 30€"
+                 },
+        "contacte":  {
+                         "web":  null,
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Xiringuito",
+                      "Gastrobar"
+                  ],
+        "serveis":  [
+                        "Terrassa",
+                        "Vistes al mar"
+                    ],
+        "horari":  "Cada dia · 12:00 – 00:00"
+    },
+    {
+        "id":  16,
+        "nom":  "Kapytal Pineda",
+        "slug":  "kapytal-pineda",
+        "imatges":  [
+                        "img/16/details_16.webp",
+                        "img/16/card_16.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Kapytal%20Pineda%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Restaurant modern amb menú variat i ambient juvenil.",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "16€ - 26€"
+                 },
+        "contacte":  {
+                         "web":  "https://www.instagram.com/kapytalpineda/",
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Gastrobar",
+                      "Fast Food"
+                  ],
+        "serveis":  [
+                        "Terrassa"
+                    ],
+        "horari":  "Cada dia · 12:00 – 23:30"
+    },
+    {
+        "id":  17,
+        "nom":  "Pizzeria Italal",
+        "slug":  "pizzeria-italal",
+        "imatges":  [
+                        "img/17/details_17.webp",
+                        "img/17/card_17.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Pizzeria%20Italal%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Pizzeria amb pizzes artesanes i ingredients frescos.",
+        "preu":  {
+                     "nivell":  1,
+                     "rang":  "10€ - 18€"
+                 },
+        "contacte":  {
+                         "web":  "https://www.pizzeriaitaliapineda.com",
+                         "telefon":  "+34 93 767 01 45",
+                         "email":  "info@pizzeriaitaliapineda.com"
+                     },
+        "tipus":  [
+                      "Pizzeria"
+                  ],
+        "serveis":  [
+                        "Emportar"
+                    ],
+        "horari":  "Dilluns a diumenge · 19:00 – 23:30"
+    },
+    {
+        "id":  18,
+        "nom":  "Burger Life Pineda",
+        "slug":  "burger-life-pineda",
+        "imatges":  [
+                        "img/18/details_18.webp",
+                        "img/18/card_18.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Burger%20Life%20Pineda%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Hamburgueseria amb combinacions originals.",
+        "preu":  {
+                     "nivell":  1,
+                     "rang":  "9€ - 15€"
+                 },
+        "contacte":  {
+                         "web":  "https://www.burgerlife73.es/index",
+                         "telefon":  "+34 634 477 392",
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Fast Food"
+                  ],
+        "serveis":  [
+                        "Emportar"
+                    ],
+        "horari":  "Cada dia · 18:00 – 23:30"
+    },
+    {
+        "id":  19,
+        "nom":  "ECO Pizzeria Que Bona!!",
+        "slug":  "eco-pizzeria-que-bona",
+        "imatges":  [
+                        "img/19/details_19.webp",
+                        "img/19/card_19.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=ECO%20Pizzeria%20Que%20Bona!!%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Pizzeria ecològica amb ingredients de proximitat.",
+        "preu":  {
+                     "nivell":  1,
+                     "rang":  "10€ - 18€"
+                 },
+        "contacte":  {
+                         "web":  null,
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Pizzeria"
+                  ],
+        "serveis":  [
+                        "Emportar"
+                    ],
+        "horari":  "Dimecres a diumenge · 19:00 – 23:00"
+    },
+    {
+        "id":  20,
+        "nom":  "Piccola Italia",
+        "slug":  "piccola-italia",
+        "imatges":  [
+                        "img/20/details_20.webp",
+                        "img/20/card_20.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Piccola%20Italia%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Restaurant italià amb pastes fresques i pizzes tradicionals.",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "16€ - 28€"
+                 },
+        "contacte":  {
+                         "web":  "https://www.restauranteitalianolapiccolapineda.com",
+                         "telefon":  "+34 937 849 116",
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Italià",
+                      "Pizzeria"
+                  ],
+        "serveis":  [
+                        "Reserves"
+                    ],
+        "horari":  "Dimarts a diumenge · 13:00 – 16:00 / 19:00 – 23:00"
+    },
+    {
+        "id":  21,
+        "nom":  "Pizzeria La Floresta",
+        "slug":  "pizzeria-la-floresta",
+        "imatges":  [
+                        "img/21/details_21.webp",
+                        "img/21/card_21.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Pizzeria%20La%20Floresta%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Pizzeria clàssica amb masses artesanes.",
+        "preu":  {
+                     "nivell":  1,
+                     "rang":  "9€ - 16€"
+                 },
+        "contacte":  {
+                         "web":  null,
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Pizzeria"
+                  ],
+        "serveis":  [
+                        "Emportar"
+                    ],
+        "horari":  "Cada dia · 19:00 – 23:00"
+    },
+    {
+        "id":  22,
+        "nom":  "Luna de Anatolia Kebab Pizza",
+        "slug":  "luna-de-anatolia-kebab-pizza",
+        "imatges":  [
+                        "img/22/details_22.webp",
+                        "img/22/card_22.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Luna%20de%20Anatolia%20Kebab%20Pizza%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Kebabs, pizzes i menjar ràpid oriental.",
+        "preu":  {
+                     "nivell":  1,
+                     "rang":  "8€ - 15€"
+                 },
+        "contacte":  {
+                         "web":  null,
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Oriental",
+                      "Pizzeria"
+                  ],
+        "serveis":  [
+                        "Emportar"
+                    ],
+        "horari":  "Cada dia · 12:00 – 00:00"
+    },
+    {
+        "id":  23,
+        "nom":  "Frankfurt Mélies",
+        "slug":  "frankfurt-melies",
+        "imatges":  [
+                        "img/23/details_23.webp",
+                        "img/23/card_23.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Frankfurt%20M%C3%83%C2%A9lies%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Frankfurts i plats ràpids clàssics.",
+        "preu":  {
+                     "nivell":  1,
+                     "rang":  "7€ - 14€"
+                 },
+        "contacte":  {
+                         "web":  null,
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Frankfurt",
+                      "Fast Food"
+                  ],
+        "serveis":  [
+                        "Emportar"
+                    ],
+        "horari":  "Cada dia · 18:00 – 01:00"
+    },
+    {
+        "id":  24,
+        "nom":  "Cruel Pizza",
+        "slug":  "cruel-pizza",
+        "imatges":  [
+                        "img/24/details_24.webp",
+                        "img/24/card_24.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Cruel%20Pizza%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Pizzes creatives amb ingredients de qualitat.",
+        "preu":  {
+                     "nivell":  1,
+                     "rang":  "10€ - 18€"
+                 },
+        "contacte":  {
+                         "web":  "https://cruelpizza.es",
+                         "telefon":  "+34 600 35 56 32",
+                         "email":  "hola@cruelpizza.com"
+                     },
+        "tipus":  [
+                      "Pizzeria"
+                  ],
+        "serveis":  [
+                        "Emportar"
+                    ],
+        "horari":  "Dimecres a diumenge · 19:00 – 23:00"
+    },
+    {
+        "id":  25,
+        "nom":  "Pizzería Niko\u0027s",
+        "slug":  "pizzeria-nikos",
+        "imatges":  [
+                        "img/25/details_25.webp",
+                        "img/25/card_25.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Pizzer%C3%83%C2%ADa%20Niko\u0027s%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Pizzeria senzilla amb receptes clàssiques.",
+        "preu":  {
+                     "nivell":  1,
+                     "rang":  "9€ - 16€"
+                 },
+        "contacte":  {
+                         "web":  "https://es.restaurantguru.com/Pizzeria-Nikos-Pineda-de-Mar",
+                         "telefon":  "+34 938 84 34 98",
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Pizzeria"
+                  ],
+        "serveis":  [
+                        "Emportar"
+                    ],
+        "horari":  "Cada dia · 19:00 – 23:00"
+    },
+    {
+        "id":  26,
+        "nom":  "Restaurant and Bar - Nucky\u0027s by St. Jordi",
+        "slug":  "restaurant-and-bar-nuckys-by-st-jordi",
+        "imatges":  [
+                        "img/26/details_26.webp",
+                        "img/26/card_26.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Restaurant%20and%20Bar%20-%20Nucky\u0027s%20by%20St.%20Jordi%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Restaurant modern amb plats mediterranis.",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "18€ - 30€"
+                 },
+        "contacte":  {
+                         "web":  null,
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Mediterrani",
+                      "Gastrobar"
+                  ],
+        "serveis":  [
+                        "Terrassa"
+                    ],
+        "horari":  "Dimarts a diumenge · 13:00 – 23:00"
+    },
+    {
+        "id":  27,
+        "nom":  "Restaurant Diagonal",
+        "slug":  "restaurant-diagonal",
+        "imatges":  [
+                        "img/27/details_27.webp",
+                        "img/27/card_27.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Restaurant%20Diagonal%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Cuina mediterrània amb producte local.",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "16€ - 26€"
+                 },
+        "contacte":  {
+                         "web":  "https://www.restaurantdiagonal.com/ca/",
+                         "telefon":  "+34 93 767 15 02",
+                         "email":  "info@restaurantdiagonal.com"
+                     },
+        "tipus":  [
+                      "Mediterrani",
+                      "Tradicional"
+                  ],
+        "serveis":  [
+                        "Menú diari"
+                    ],
+        "horari":  "Dimarts a diumenge · 13:00 – 16:00"
+    },
+    {
+        "id":  28,
+        "nom":  "Domèstic",
+        "slug":  "domestic",
+        "imatges":  [
+                        "img/28/details_28.webp",
+                        "img/28/card_28.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Dom%C3%83%C2%A8stic%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Restaurant de qualitat amb plats mediterranis i marisc.",
+        "preu":  {
+                     "nivell":  3,
+                     "rang":  "30€ - 45€"
+                 },
+        "contacte":  {
+                         "web":  "https://www.domestic-pineda.com",
+                         "telefon":  "+34 93 766 40 89",
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Mediterrani",
+                      "Marisc / Peix"
+                  ],
+        "serveis":  [
+                        "Reserves"
+                    ],
+        "horari":  "Dimecres a diumenge · 13:00 – 16:00"
+    },
+    {
+        "id":  29,
+        "nom":  "Chicken and Fish Grill",
+        "slug":  "chicken-and-fish-grill",
+        "imatges":  [
+                        "img/29/details_29.webp",
+                        "img/29/card_29.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=Chicken%20and%20Fish%20Grill%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Pollastre i peix a la graella amb estil informal.",
+        "preu":  {
+                     "nivell":  3,
+                     "rang":  "25€ - 40€"
+                 },
+        "contacte":  {
+                         "web":  "https://chickenandfishgrill.com",
+                         "telefon":  "+34 93 595 00 92",
+                         "email":  "hola@chickenandfishgrill.com"
+                     },
+        "tipus":  [
+                      "Marisc / Peix",
+                      "Fast Food"
+                  ],
+        "serveis":  [
+                        "Emportar"
+                    ],
+        "horari":  "Cada dia · 12:00 – 23:00"
+    },
+    {
+        "id":  30,
+        "nom":  "La Cuina d\u0027en Manel",
+        "slug":  "la-cuina-den-manel",
+        "imatges":  [
+                        "img/30/details_30.webp",
+                        "img/30/card_30.webp"
+                    ],
+        "maps_url":  "https://www.google.com/maps?q=La%20Cuina%20d\u0027en%20Manel%20Pineda%20de%20Mar\u0026output=embed",
+        "descripcio_llarga":  "Cuina casolana catalana amb ambient familiar.",
+        "preu":  {
+                     "nivell":  2,
+                     "rang":  "15€ - 25€"
+                 },
+        "contacte":  {
+                         "web":  null,
+                         "telefon":  null,
+                         "email":  null
+                     },
+        "tipus":  [
+                      "Tradicional"
+                  ],
+        "serveis":  [
+                        "Menú diari"
+                    ],
+        "horari":  "Dimarts a diumenge · 13:00 – 16:00"
+    }
+]

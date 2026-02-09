@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Llistat de restaurants a Pineda de Mar amb filtres per tipus i preu.">
+  <link rel="canonical" href="https://bielsoler23.github.io/GastroPineda/restaurants.html">
+  <title>GastroPineda · Restaurants</title>
+  <link rel="icon" href="assets/favicon/favicon.ico">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="container header">
+    <a href="index.html" class="brand">GastroPineda</a>
+    <nav>
+      <a href="index.html">Inici</a>
+      <a href="restaurants.html">Restaurants</a>
+      <a href="suggeriments.html">Suggeriments</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="search-hero">
+    <h1>Restaurants a Pineda de Mar</h1>
+    <p class="muted">Cerca pel nom del restaurant o filtra per tipus i preu.</p>
+    <form class="search-bar home-search" id="search-form">
+      <input type="search" id="search-input" placeholder="Ex: Can Formiga">
+      <button type="submit">Cerca</button>
+    </form>
+  </section>
+
+  <div class="layout layout-tight">
+    <section class="section-box sticky-filter">
+      <h2>Filtra</h2>
+      <div>
+        <h3>Tipus</h3>
+        <label><input type="checkbox" class="filter-checkbox" value="Pizzeria" data-type="tipus"> Pizzeria</label>
+        <label><input type="checkbox" class="filter-checkbox" value="Tradicional" data-type="tipus"> Tradicional</label>
+        <label><input type="checkbox" class="filter-checkbox" value="Braseria" data-type="tipus"> Braseria</label>
+        <label><input type="checkbox" class="filter-checkbox" value="Marisc / Peix" data-type="tipus"> Marisc / Peix</label>
+        <label><input type="checkbox" class="filter-checkbox" value="Gastrobar" data-type="tipus"> Gastrobar</label>
+        <label><input type="checkbox" class="filter-checkbox" value="Fast Food" data-type="tipus"> Fast Food</label>
+        <label><input type="checkbox" class="filter-checkbox" value="Tapas" data-type="tipus"> Tapas</label>
+      </div>
+      <div>
+        <h3>Preu</h3>
+        <label><input type="checkbox" class="filter-checkbox" value="€" data-type="preu"> €</label>
+        <label><input type="checkbox" class="filter-checkbox" value="€€" data-type="preu"> €€</label>
+        <label><input type="checkbox" class="filter-checkbox" value="€€€" data-type="preu"> €€€</label>
+      </div>
+      <button id="clear-filters" type="button">Esborra filtres</button>
+    </section>
+
+    <section class="section-box">
+      <section class="cards" id="cards-container"></section>
+    </section>
+  </div>
+</main>
+
+<script src="assets/js/cards.js" defer></script>
+<script src="assets/js/restaurants.js" defer></script>
+
+<footer>
+  © 2025 GastroPineda
+</footer>
+
+</body>
+</html>

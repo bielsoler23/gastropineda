@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guia de restaurants a Pineda de Mar amb fotos, preus, horaris i mapa. Cerca i filtra per tipus i preu.">
+  <link rel="canonical" href="https://bielsoler23.github.io/GastroPineda/index.html">
+  <title>GastroPineda · Inici</title>
+  <link rel="icon" href="assets/favicon/favicon.ico">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "GastroPineda",
+          "url": "https://bielsoler23.github.io/GastroPineda/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://bielsoler23.github.io/GastroPineda/restaurants.html?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "GastroPineda",
+          "url": "https://bielsoler23.github.io/GastroPineda/",
+          "logo": "https://bielsoler23.github.io/GastroPineda/assets/favicon/favicon.ico"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "És una guia oficial?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. És un projecte local amb dades públiques i aportacions de la comunitat."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Com proposo un restaurant?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pots fer-ho des de la pàgina de suggeriments."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Les dades són sempre actuals?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Intentem revisar horaris i informació regularment, però poden variar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Es pot filtrar per preu?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, a la pàgina de restaurants pots filtrar per preu i tipus."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  </script>
+</head>
+<body>
+
+<header>
+  <div class="container header">
+    <a href="index.html" class="brand">GastroPineda</a>
+    <nav>
+      <a href="index.html">Inici</a>
+      <a href="restaurants.html">Restaurants</a>
+      <a href="suggeriments.html">Suggeriments</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="search-hero">
+    <h1>Troba el teu restaurant a Pineda</h1>
+    <p class="muted">Cerca pel nom i accedeix als detalls en un clic.</p>
+    <form class="search-bar home-search" action="restaurants.html" method="get">
+      <input type="search" name="q" placeholder="Ex: Can Formiga">
+      <button type="submit">Cerca</button>
+    </form>
+  </section>
+
+  <section class="section-box">
+    <h2>Recomanacions d'avui</h2>
+    <p class="muted">Una selecció breu per començar amb bon criteri.</p>
+    <div class="cards" id="home-recommendations"></div>
+  </section>
+
+  <section class="section-box">
+    <h2>Què hi trobaràs</h2>
+    <ul class="muted">
+      <li>Restaurants locals amb informació clara i actualitzada.</li>
+      <li>Preus orientatius i tipus de cuina principals.</li>
+      <li>Fotos reals i descripcions breus.</li>
+    </ul>
+  </section>
+
+  <section class="section-box">
+    <h2>Com funciona</h2>
+    <ol class="muted">
+      <li>Entra a la pàgina de restaurants.</li>
+      <li>Filtra per tipus o preu si ho necessites.</li>
+      <li>Obre el restaurant i consulta els detalls.</li>
+    </ol>
+  </section>
+
+  <section class="section-box">
+    <h2>Últimes novetats</h2>
+    <ul class="muted">
+      <li>Hem incorporat noves fotos a diversos restaurants.</li>
+      <li>Revisem horaris i dades de forma regular.</li>
+      <li>Continuem rebent suggeriments de la comunitat.</li>
+    </ul>
+  </section>
+
+  <section class="section-box">
+    <h2>Preguntes freqüents</h2>
+    <p><strong>És una guia oficial?</strong></p>
+    <p class="muted">No. És un projecte local amb dades públiques i aportacions de la comunitat.</p>
+    <p><strong>Com proposo un restaurant?</strong></p>
+    <p class="muted">Pots fer-ho des de la pàgina de suggeriments.</p>
+    <p><strong>Les dades són sempre actuals?</strong></p>
+    <p class="muted">Intentem revisar horaris i informació regularment, però poden variar.</p>
+    <p><strong>Es pot filtrar per preu?</strong></p>
+    <p class="muted">Sí, a la pàgina de restaurants pots filtrar per preu i tipus.</p>
+  </section>
+
+  <section class="section-box">
+    <h2>Vols suggerir un lloc?</h2>
+    <p class="muted">Tens un restaurant preferit? Envia'ns la proposta i l'afegirem.</p>
+    <p><a class="btn" href="suggeriments.html">Enviar suggeriment</a></p>
+  </section>
+
+</main>
+
+<footer>
+  © 2025 GastroPineda
+</footer>
+
+<script src="assets/js/cards.js" defer></script>
+<script src="assets/js/inici.js" defer></script>
+
+</body>
+</html>
