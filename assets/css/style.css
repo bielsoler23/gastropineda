@@ -62,8 +62,8 @@ header nav a:hover { color: var(--text); }
 
 /* NAV responsive: en pantalles petites apilem i fem més fàcil tocar */
 @media(max-width:600px){
-  .header { flex-direction: column; align-items: stretch; gap: 0.5rem; }
-  header nav { width: 100%; display:flex; justify-content:center; flex-wrap:wrap; gap:0.5rem; }
+  .header { flex-direction: column; align-items: center; gap: 0.35rem; }
+  header nav { width: 100%; display:flex; justify-content:center; flex-wrap:wrap; gap:0.4rem; }
   header nav a { margin-left: 0; padding: 0.35rem 0.6rem; border-radius: 6px; background: transparent; color: #333; }
   .brand { font-size: 1.25rem; }
 } 
@@ -159,6 +159,12 @@ header nav a:hover { color: var(--text); }
 }
 .search-bar button:hover { opacity:0.95; }
 
+@media(max-width:600px){
+  .search-bar { flex-direction: column; margin: 1rem 0; }
+  .search-bar input,
+  .search-bar button { width: 100%; }
+}
+
 /* LAYOUT AMB SIDEBAR */
 .layout {
   display: grid;
@@ -251,7 +257,9 @@ aside button:hover { background: #c0392b; }
 .card img { width: 120px; height: 100%; object-fit: cover; border-radius: 6px; flex-shrink: 0; }
 @media(max-width:600px){
   .card { flex-direction: column; height: auto; align-items: stretch; }
-  .card img { width:100%; height:160px; border-radius:6px 6px 0 0; }
+  .card a { flex-direction: column; align-items: stretch; }
+  .card img { width:100%; height:120px; border-radius:6px 6px 0 0; }
+  .card .content { padding: 0.2rem 0.2rem 0.4rem; }
 }
 .card .content { display:flex; flex-direction:column; justify-content:center; flex:1; min-width:0; }
 .card .row { display:flex; align-items:center; gap:0.5rem; margin-bottom:0.3rem; }
@@ -308,6 +316,7 @@ footer {
 @media(max-width:799px){
   .layout { grid-template-columns: 1fr; }
   aside { position: static; }
+  .sticky-filter { position: static; }
 }
 
 
@@ -353,6 +362,20 @@ footer {
   .details-grid { grid-template-columns: 1fr; }
   .gallery-main img { max-height:260px; }
   .details-right { order: 2; }
+}
+
+@media(max-width:600px){
+  .header { padding: 0.75rem 0; }
+  .brand { font-size: 1.15rem; }
+  header nav { gap: 0.4rem; }
+  .home-search { padding: 0.5rem; }
+  .home-search input,
+  .home-search button { font-size: 1rem; padding: 0.8rem 0.9rem; }
+  .card { padding: 0.7rem; }
+  .card img { height: 120px; }
+  .gallery-main img { max-height: 220px; }
+  .gallery-btn { padding: 0.35rem 0.5rem; font-size: 1rem; }
+  .google-form iframe { height: 720px; }
 }
 
 @media(min-width:901px){
